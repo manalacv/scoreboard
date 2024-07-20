@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background-color: #1b244a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#reset {
+  padding: 20px;
+  border: 2px solid white;
+  width: 150px;
+  height: 75px;
+  color: white;
+  font-size: 20px;
+}
+
+button {
+  height: 45px;
+  width: 45px;
+  border-radius: 5px;
+  color: #9aabd8;
+  border: 2px solid #9aabd8;
+  background: #1b244a;
+  font-weight: bold;
+}
+
+button:hover {
+  color: #1b244a;
+  background-color: #9aabd8;
+  border: 2px solid white;
+}
+
+.home-title,
+.guest-title {
+  color: #eeeeee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  margin: 0px 0px 21px 0px;
+}
+
+.home-score,
+.guest-score {
+  width: 155px;
+  height: 120px;
+  background-color: #080001;
+  border-radius: 5px;
+  margin: 21px auto 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.score-color {
+  color: red;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-section,
+.guest-section {
+  text-align: center;
+  margin: 50px;
+}
+
+.home,
+.guest {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #080001;
+  color: red;
+}
